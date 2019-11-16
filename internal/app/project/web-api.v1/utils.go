@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"gitlab.com/standard-go/project/internal/app/project"
-	"gitlab.com/standard-go/project/internal/app/responses"
-	"gitlab.com/standard-go/project/internal/app/config/env"
+	"github.com/odoo-assignment/internal/app/project"
+	"github.com/odoo-assignment/internal/app/responses"
+	"github.com/odoo-assignment/internal/app/config/env"
 )
 
 /*

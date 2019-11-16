@@ -7,18 +7,27 @@ import (
 // InitAPIRoutes sets project API routes
 func InitAPIRoutes(r chi.Router) {
 	/*
-	|--------------------------------------------------------------------------
-	| Users Routes
-	|--------------------------------------------------------------------------
-	|
+		|--------------------------------------------------------------------------
+		| Users Routes
+		|--------------------------------------------------------------------------
+		|
 	*/
-	r.Route("/users", func(r chi.Router) {
-		r.With(PageRequestCtx).Get("/", IndexUser)
-		r.Post("/", StoreUser)
-		r.Route("/{user_id}", func(r chi.Router) {
-			r.Get("/", ShowUser)
-			r.Put("/", UpdateUser)
-			r.Delete("/", DestroyUser)
-		})
+	r.Route("/pertanyaan", func(r chi.Router) {
+		r.Get("/", GetJawaban)
+		r.Post("/", StoreQNA)
+		r.Get("/hewo", HelloWorld)
+	})
+
+	r.Route("/pengguna", func(r chi.Router) {
+		r.Get("/", GetPengguna)
+		r.Post("/", StorePengguna)
+	})
+
+	r.Route("/keluhan", func(r chi.Router) {
+		r.Post("/", StoreKeluhan)
+	})
+
+	r.Route("/employee", func(r chi.Router) {
+		r.Get("/", GetAllEmployee)
 	})
 }

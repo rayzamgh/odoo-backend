@@ -1,20 +1,16 @@
 package project
 
-import (
-	// 
-)
-
+//
 // Service contains services to manage data in the repository.
 type Service interface {
-	UserService
-
+	ChatbotService
 	Close() error
 }
 
-type UserService interface {
-	FetchIndexUser(*PageRequest) ([]*User, int, error)
-	FetchShowUser(string) (*User, error)
-	FetchStoreUser(*User) (*User, error)
-	FetchUpdateUser(string, *User) (*User, error)
-	FetchDestroyUser(string) error
+type ChatbotService interface {
+	FetchShowPertanyaanJawaban(pertanyaan string) (string, error)
+	FetchStorePertanyaanJawaban(*PertanyaanJawaban) (*PertanyaanJawaban, error)
+	FetchStoreKeluhan(*Keluhan) (*Keluhan, error)
+	ShowAllPengguna() ([]*Pengguna, error)
+	FetchStorePengguna(*Pengguna) (*Pengguna, error)
 }

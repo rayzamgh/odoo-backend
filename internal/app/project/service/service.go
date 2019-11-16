@@ -9,7 +9,9 @@ import (
 
 // Collection names
 const (
-	CollectionUsers = "users"
+	CollectionQNA      = "pertanyaanjawaban"
+	CollectionPengguna = "pengguna"
+	CollectionKeluhan  = "keluhan"
 )
 
 // MongoRepo implements facultative.Repository using MongoDB

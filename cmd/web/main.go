@@ -12,10 +12,10 @@ import (
 	"github.com/go-chi/cors"
 	log "github.com/sirupsen/logrus"
 
-	service "gitlab.com/standard-go/project/internal/app/project/service"
-	"gitlab.com/standard-go/project/internal/app/config/env"
-	api "gitlab.com/standard-go/project/internal/app/project/web-api.v1"
-	"gitlab.com/standard-go/project/internal/pkg/server"
+	service "github.com/odoo-assignment/internal/app/project/service"
+	"github.com/odoo-assignment/internal/app/config/env"
+	api "github.com/odoo-assignment/internal/app/project/web-api.v1"
+	"github.com/odoo-assignment/internal/pkg/server"
 )
 
 /*

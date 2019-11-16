@@ -10,8 +10,8 @@ import (
 
 	"github.com/gbrlsnchs/jwt"
 
-	"gitlab.com/standard-go/project/internal/app/config/env"
-	"gitlab.com/standard-go/project/internal/app/project"
+	"github.com/odoo-assignment/internal/app/config/env"
+	"github.com/odoo-assignment/internal/app/project"
 )
 
 //
