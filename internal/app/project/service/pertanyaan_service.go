@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/odoo-assignment/internal/app/project"
+	"github.com/odoo-backend/internal/app/project"
 )
 
 func (s *Service) FetchShowPertanyaanJawaban(pertanyaan string) (string, error) {

@@ -9,7 +9,7 @@ import (
 	"github.com/mongodb/mongo-go-driver/bson/primitive"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/odoo-assignment/internal/app/project"
+	"github.com/odoo-backend/internal/app/project"
 )
 
 func (r *MongoRepo) FetchShowPertanyaanJawaban(pertanyaan string) (string, error) {

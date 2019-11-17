@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/odoo-assignment/internal/app/project"
+	"github.com/odoo-backend/internal/app/project"
 )
 
 var (

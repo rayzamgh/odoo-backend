@@ -10,8 +10,8 @@ import (
 
 	"github.com/gbrlsnchs/jwt"
 
-	"github.com/odoo-assignment/internal/app/config/env"
-	"github.com/odoo-assignment/internal/app/project"
+	"github.com/odoo-backend/internal/app/config/env"
+	"github.com/odoo-backend/internal/app/project"
 )
 
 //

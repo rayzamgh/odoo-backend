@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/odoo-assignment/internal/app/config/env"
-	"github.com/odoo-assignment/internal/app/project"
-	"github.com/odoo-assignment/internal/app/responses"
+	"github.com/odoo-backend/internal/app/config/env"
+	"github.com/odoo-backend/internal/app/project"
+	"github.com/odoo-backend/internal/app/responses"
 	"github.com/skilld-labs/go-odoo/api"
 )
 

@@ -3,8 +3,8 @@ package api
 import (
 	log "github.com/sirupsen/logrus"
 
-	"github.com/odoo-assignment/internal/app/project"
-	"github.com/odoo-assignment/internal/app/project/service"
+	"github.com/odoo-backend/internal/app/project"
+	"github.com/odoo-backend/internal/app/project/service"
 )
 
 

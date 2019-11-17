@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/odoo-assignment/internal/app/project"
+	"github.com/odoo-backend/internal/app/project"
 	log "github.com/sirupsen/logrus"
 )
 

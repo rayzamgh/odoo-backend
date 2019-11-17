@@ -1,6 +1,6 @@
 package service
 
-import "github.com/odoo-assignment/internal/app/project"
+import "github.com/odoo-backend/internal/app/project"
 
 func (s *Service) ShowAllPengguna() ([]*project.Pengguna, error) {
 	return s.Repo.ShowAllPengguna()

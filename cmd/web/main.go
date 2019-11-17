@@ -12,10 +12,10 @@ import (
 	"github.com/go-chi/cors"
 	log "github.com/sirupsen/logrus"
 
-	service "github.com/odoo-assignment/internal/app/project/service"
-	"github.com/odoo-assignment/internal/app/config/env"
-	api "github.com/odoo-assignment/internal/app/project/web-api.v1"
-	"github.com/odoo-assignment/internal/pkg/server"
+	service "github.com/odoo-backend/internal/app/project/service"
+	"github.com/odoo-backend/internal/app/config/env"
+	api "github.com/odoo-backend/internal/app/project/web-api.v1"
+	"github.com/odoo-backend/internal/pkg/server"
 )
 
 /*
